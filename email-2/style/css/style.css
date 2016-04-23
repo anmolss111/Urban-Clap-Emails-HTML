@@ -1,0 +1,236 @@
+@font-face {
+
+	font-family: 'Montserrat-Regular';
+	src: url('../fonts/Montserrat-Regular.otf');
+}
+@font-face {
+
+	font-family: 'OpenSans-Regular';
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+
+	font-family: 'Montserrat-Hairline';
+	src: url('../fonts/Montserrat-Hairline.otf');
+}
+html,body{
+
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+.clear{
+
+	clear: both;
+}
+.main-color{
+
+	color: #3d5b8b;
+}
+.header-background{
+
+	background: rgba(61, 91, 139,.16);
+}
+.arrow-up {
+
+	width: 0; 
+	height: 0; 
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid rgb(0,187,71);
+	display: inline-block;
+	margin-left: 10px;
+}
+.arrow-down {
+
+	width: 0; 
+	height: 0; 
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;	
+	border-top: 6px solid rgb(197,56,63);
+	display: inline-block;
+	margin-left: 10px;
+}
+.arrow-up-text{
+
+	font-size: 16px;
+	color: rgb(0,187,71);
+}
+.arrow-down-text{
+
+	font-size: 16px;
+	color: rgb(197,56,63);
+}
+.no-arrow-text{
+
+	font-size: 16px;
+	color: rgb(152,152,152);
+	margin-left: 10px;
+}
+div.container {
+
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+div.container .header img{
+
+	margin: 20px 0px;
+}
+div.container .header .header-date{
+
+	font-family: 'Montserrat-Regular';
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+div.container .weekly-report{
+
+	font-family: 'Montserrat-Hairline';
+	font-size: 42px;
+	margin: 35px 0px;
+}
+div.container .table table{
+
+	width: 700px;
+}
+div.container .table table tr td.icon{
+
+	vertical-align: top;
+	padding: 25px 15px;
+}
+div.container .table table tr td.row-1-col-1{
+
+	width: 290px;
+	font-family: 'Montserrat-Regular';
+	font-size: 18px;
+	border-bottom: 2px solid rgb(164,164,164);
+	border-right: 1px solid rgb(164,164,164);
+	padding: 20px 0 10px 0;
+}
+div.container .table table tr td.row-1-col-2{
+
+	width: 130px;
+	font-family: 'Montserrat-Regular';
+	font-size: 14px;
+	vertical-align: top;
+	padding-left: 10px;
+	border-bottom: 2px solid rgb(164,164,164);
+	border-right: 1px solid rgb(164,164,164);
+}
+div.container .table table tr td.row-1-col-34{
+
+	width:95px;
+	font-family: 'Montserrat-Regular';
+	font-size: 14px;
+	vertical-align: top;
+	padding-left: 10px;
+	border-bottom: 2px solid rgb(164,164,164);
+}
+div.container .table table tr.content-row td {
+
+	font-family: 'OpenSans-Regular';
+	font-size: 17px;
+	padding: 10px;
+}
+div.container .table table tr.content-row td.col-12{
+
+	border-right: 1px solid rgb(164,164,164);
+}
+div.container .table-spacing{
+
+	height: 75px;
+}
+div.container .view-your-profile{
+
+	margin: 30px 0 60px 0;
+}
+div.container .plus-minus-img{
+
+	display: inline-block;
+	float: left;
+	margin-left: 250px;
+}
+div.container .plus-minus-headers{
+
+	width: 52%;
+	display: inline-block;
+	float: left;
+}
+div.container .plus-minus-headers .header{
+
+	font-family: 'Montserrat-Regular';
+	font-size: 18px;
+	text-align: left;
+	padding-left: 10px;
+}
+div.container .plus-minus-headers .sub-header{
+
+	font-family: 'OpenSans-Regular';
+	font-size: 18px;
+	color: #666666;
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 45px;
+}
+div.container .tip-container{
+
+	width: 100%;
+	max-width: 450px;
+	height: 225px;
+	margin: 5px auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+div.container .tip-container img{
+
+	max-height: 60px;
+	max-width: 60px;
+	height: auto;
+	width: auto;
+	margin: 10px 0px;
+	margin-top: 20px;
+}
+div.container .tip-container .tip-heading{
+
+	font-family: 'Montserrat-Regular';
+	font-size: 20px;
+	margin-top : 10px; 
+}
+div.container .tip-container .divider{
+
+	width: 400px;
+	height: 3px;
+	background: #3d5b8b;
+	border: 0px;
+}
+div.container .tip-container .tip-content{
+
+	font-family: 'OpenSans-Regular';
+	font-size: 18px;
+	padding: 15 35px;
+}
+div.container .app{
+
+	font-family: 'OpenSans-Regular';
+	font-size: 20px;
+	color: #333333;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+div.container .app-img{
+
+	height: 60px;
+	width: auto;
+	padding: 10px;
+}
+div.container .footer{
+
+	padding-top: 25px;
+	font-family: 'OpenSans-Regular';
+	font-size: 15px;
+	color: #666666;
+	line-height: 225%;
+	padding-bottom: 25px;
+}
